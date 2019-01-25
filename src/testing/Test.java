@@ -12,4 +12,8 @@ public class Test {
 		this.status = status;
 	}
 	
+	@Override
+	public String toString() {
+		return "Test File";
+	}
 }
